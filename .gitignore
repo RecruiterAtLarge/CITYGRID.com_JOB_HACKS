@@ -1,11 +1,5 @@
-# Build and Object Folders
-bin/
-obj/
-
-#User Specific Files
-*.user
-*.suo
-
-#Resource Caches
-_ReSharper.*
-*.sln.cache
+target
+.project
+.classpath
+.settings
+bin
