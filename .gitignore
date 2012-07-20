@@ -1,5 +1,16 @@
-target
+# Ignore the target and log directories (including all contents and in all sub-dirs)
+target/
+
+# Ignore log files
+logs/
+*log.txt
+
+# Ignore IntelliJ project files
+*.iml
+*.ipr
+*.iws
+
+# Ignore Eclipse project files
 .project
 .classpath
 .settings
-bin
