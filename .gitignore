@@ -13,4 +13,4 @@ logs/
 # Ignore Eclipse project files
 .project
 .classpath
-.settings
+.settings/
