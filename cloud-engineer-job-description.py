@@ -6,7 +6,7 @@ job = {
 
 company = {
     'name': 'CityGrid Media',
-    'links': ['local adversiting organizations', 'web and mobile publishers'],
+    'links': ['local advertising organizations', 'web and mobile publishers'],
     'part_of': 'IAC',
     'owns_and_operates': ['Citysearch', 'UrbanSpoon', 'Insider Pages'],
     'trajectory': 'upward',
@@ -37,7 +37,7 @@ def has_background(candidate):
         "Load balancing" in candidate.skills and
         "Virtualization" in candidate.skills)           # Xen, VMWare
 
-def has_bouns_skills(candidate):
+def has_bonus_skills(candidate):
     return "Hadoop" in candidate.skills
 
 def daily_activity():
