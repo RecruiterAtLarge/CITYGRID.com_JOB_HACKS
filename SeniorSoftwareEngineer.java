@@ -1,11 +1,11 @@
 public class SeniorSoftwareEngineer implements JobDescription {
-    private static final String BASE_URL = "http://careers.citygrid.com/";
-    
-    private static final Gson GSON = new Gson();
+    private static final String BASE_URL = "http://careers.citygrid.com/";
 
-    @Test
-    public void verifyIndustryFacts() {
-        IndustryFacts facts = fromJson(
+    private static final Gson GSON = new Gson();
+
+    @Test
+    public void verifyIndustryFacts() {
+       IndustryFacts facts = fromJson(
                 invokeService("facts", String.class, "type", "all"),
                 IndustryFacts.class);
         
